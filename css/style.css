@@ -10,6 +10,13 @@ body{
 
 }
 
+header{
+    background-image: url(../images/siri\ cascudo.png);
+    background-size: cover;
+    grid-area: banner;
+    height: 270px;
+}
+
 nav{
     align-items: center;
     background-color: rgb(156, 106, 30);
