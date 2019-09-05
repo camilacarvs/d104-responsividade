@@ -1,10 +1,38 @@
 body{
     display: grid;
-    grid-template-areas: "nav"
+    grid-template-areas: "navbar"
                          "banner"
                          "main" /*semantica de grid: como só ira ter uma linha essa vai ser a parte principal*/
                          "section"
                          "footer";
     grid-template-columns: 99.7vw;
+    margin: 0;
 
+}
+
+nav{
+    align-items: center;
+    background-color: rgb(156, 106, 30);
+    display: flex;
+    grid-area: navbar;
+    height: 45px;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+nav div{
+    display: flex;
+    flex-direction: column;
+    height: 23px;
+    justify-content: space-between;
+    
+}
+
+nav div span{
+    background-color: black;
+    height: 3px;
+    width: 30px;
+}
+nav img{
+width: 35px;
 }
